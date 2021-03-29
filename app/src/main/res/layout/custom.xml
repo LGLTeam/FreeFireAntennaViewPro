@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="5dp"
+	android:background="#FFFFFFFF"
+	android:gravity="end">
+
+	<LinearLayout
+		android:layout_height="102dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FF000000"
+		android:gravity="center_vertical|center_horizontal">
+
+		<ImageView
+			android:layout_height="75dp"
+			android:layout_width="75dp"
+			android:text="Button"
+			android:background="@drawable/cmc"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Antena View PRO"
+			android:typeface="serif"
+			android:textColor="#FFFF0000"/>
+
+	</LinearLayout>
+
+	<EditText
+		android:id="@+id/edit1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:ems="10"
+		android:hint="Usuario"
+		android:inputType="textEmailAddress"
+		android:textColorHint="#FF000000"
+		android:textColor="#FF000000"
+		android:typeface="serif"/>
+
+	<EditText
+		android:id="@+id/edit2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:ems="10"
+		android:hint="Senha"
+		android:inputType="textPassword"
+		android:textColorHint="#FF000000"
+		android:textColor="#FF000000"
+		android:typeface="serif"/>
+
+	<Button
+		android:id="@+id/log"
+		android:layout_width="wrap_content"
+		android:layout_height="45dp"
+		android:layout_marginTop="16dp"
+		android:text="ENTRAR"
+		android:textStyle="bold"
+		android:textColor="#FFFFFFFF"
+		android:background="@drawable/buttom"
+		android:typeface="serif"/>
+
+</LinearLayout>
+

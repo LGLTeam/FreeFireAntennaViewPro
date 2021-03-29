@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center_vertical|center_horizontal"
+		android:background="#FF000000">
+
+		<ImageView
+			android:layout_height="100dp"
+			android:layout_width="100dp"
+			android:text="Button"
+			android:background="@drawable/ic_launcher"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="ANTENA VIEW PRO"
+			android:textColor="#FFFF0000"
+			android:typeface="serif"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Free Fire View Antena inPro"
+			android:textColor="#FF0049FF"
+			android:typeface="serif"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="Mode By CMods"
+			android:typeface="serif"
+			android:textColor="#FF5E95F2"/>
+
+		<LinearLayout
+			android:layout_height="140dp"
+			android:layout_width="340dp"
+			android:orientation="vertical"
+			android:gravity="center_vertical|center_horizontal"
+			android:elevation="2dp"
+			android:layout_marginTop="11dp"
+			android:background="@drawable/borda">
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="235dp"
+				android:text="ANTENA VIEW PRO"
+				android:background="@drawable/buttom"
+				android:layout_marginTop="5dp"
+				android:typeface="serif"
+				android:textColor="#FFFFFFFF"
+				android:id="@+id/log"/>
+
+			<Button
+				android:layout_height="wrap_content"
+				android:layout_width="235dp"
+				android:text="RESET ANTENA"
+				android:background="@drawable/buttom"
+				android:layout_marginTop="5dp"
+				android:typeface="serif"
+				android:textColor="#FFFFFFFF"
+				android:onClick="Limpar"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="220dp"
+			android:layout_width="340dp"
+			android:orientation="vertical"
+			android:gravity="center_vertical|center_horizontal">
+
+			<LinearLayout
+				android:layout_height="180dp"
+				android:layout_width="340dp"
+				android:orientation="vertical"
+				android:background="@drawable/borda"
+				android:gravity="center_vertical">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="wrap_content"
+					android:text="Partners : Youtubers"
+					android:layout_marginLeft="13dp"
+					android:typeface="serif"
+					android:textColor="#FFFF0000"
+					android:textSize="17sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="LMODs - Youtube"
+					android:layout_marginLeft="13dp"
+					android:textColor="#FFFFFFFF"
+					android:typeface="serif"
+					android:textSize="16sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="Master Games - Youtube"
+					android:layout_marginLeft="13dp"
+					android:textColor="#FFFFFFFF"
+					android:typeface="serif"
+					android:textSize="16sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="Venus Mods - Youtube"
+					android:textColor="#FFFFFFFF"
+					android:layout_marginLeft="13dp"
+					android:typeface="serif"
+					android:textSize="16sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="Cyrust - Youtube"
+					android:layout_marginLeft="13dp"
+					android:textColor="#FFFFFFFF"
+					android:typeface="serif"
+					android:textSize="16sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="Darking Cheater - Youtube"
+					android:layout_marginLeft="13dp"
+					android:typeface="serif"
+					android:textColor="#FFFFFFFF"
+					android:textSize="16sp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="Guys Mods - Youtube"
+					android:layout_marginLeft="13dp"
+					android:textColor="#FFFFFFFF"
+					android:textSize="16sp"
+					android:typeface="serif"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Copyright ©CoRinga Modz"
+				android:textColor="#FFFF0000"
+				android:typeface="serif"
+				android:textSize="15sp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
